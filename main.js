@@ -22,6 +22,8 @@ function reciveNumberOfPeopleValue() {
 }
 
 function reciveTipPercentageValue(value) {
+    tipPercentage = value / 100;
+
     buttonSelected = document.querySelector("");
 }
 
@@ -32,11 +34,3 @@ function calculate() {
         console.log("Não é possivel calcular. Preencha todos os campos.")
     }
 }
-
-
-
-
-
-
-
-
